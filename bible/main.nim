@@ -4,8 +4,8 @@ from std/uri import decodeUrl
 from std/strformat import fmt
 from std/dom import window
 from pkg/bibleTools import parseBibleVerse, BibleVerse, initBibleVerse,
-                            inOzzuuBible, identifyBibleBookAllLangs, en, pt,
-                            ALEnglish, ALPortuguese
+                            inOzzuuBible, identifyBibleBook, en, pt,
+                            ALEnglish, ALPortuguese, UnknownBook
 include pkg/karax/prelude
 
 var parsedVerse: BibleVerse
@@ -26,14 +26,17 @@ proc createDom(data: RouterData): VNode =
             parsedVerse = parseBibleVerse($n.value)
             window.location.hash = n.value
     section:
-      if parsedVerse == initBibleVerse():
-        h2: text "Invalid verse"
+      if parsedVerse == initBibleVerse() or parsedVerse.book.book == UnknownBook:
+        if hashVal.len > 0:
+          h2: text "Invalid verse"
       else:
         h2: text "Output"
         pre(class = "output", readonly = "true", name = "Ozzuu Bible URL"):
           let url = parsedVerse.inOzzuuBible
           a(href = url, target = "_blank", rel = "noopener noreferrer"):
             text url
+        pre(class = "output", readonly = "true", name = "Detected Language"):
+          text ($parsedVerse.book.lang)[2..^1]
         pre(class = "output", readonly = "true", name = "Parsed verse"):
           ul:
             ol:
@@ -41,22 +44,44 @@ proc createDom(data: RouterData): VNode =
               text bibleTools.`$`(parsedVerse)
           ul:
             small: text "With hebrew transliteration"
-            ol:
-              bold: text "English: "
-              text bibleTools.`$`(
-                parsedVerse,
-                hebrewTransliteration = true,
-                toLang = ALEnglish
-              )
-            ol:
-              bold: text "Portuguese: "
-              text bibleTools.`$`(
-                parsedVerse,
-                hebrewTransliteration = true,
-                toLang = ALPortuguese
-              )
+            ul:
+              small: text "English"
+              ol:
+                bold: text "Short: "
+                text bibleTools.`$`(
+                  parsedVerse,
+                  hebrewTransliteration = true,
+                  shortBook = true,
+                  forceLang = ALEnglish
+                )
+              ol:
+                bold: text "Full: "
+                text bibleTools.`$`(
+                  parsedVerse,
+                  hebrewTransliteration = true,
+                  shortBook = false,
+                  forceLang = ALEnglish
+                )
+            ul:
+              small: text "Portuguese"
+              ol:
+                bold: text "Short: "
+                text bibleTools.`$`(
+                  parsedVerse,
+                  hebrewTransliteration = true,
+                  shortBook = true,
+                  forceLang = ALPortuguese
+                )
+              ol:
+                bold: text "Full: "
+                text bibleTools.`$`(
+                  parsedVerse,
+                  hebrewTransliteration = true,
+                  shortBook = false,
+                  forceLang = ALPortuguese
+                )
         pre(class = "output", readonly = "true", name = "Book name"):
-          let book = parsedVerse.book.identifyBibleBookAllLangs
+          let book = parsedVerse.book.book
           ul:
             ol:
               bold: text "Enum: "
