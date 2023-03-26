@@ -1628,17 +1628,6 @@ function eqStrings(a_33556988, b_33556989) {
 
   
 }
-
-function rawEcho() {
-          var buf = "";
-      for (var i = 0; i < arguments.length; ++i) {
-        buf += toJSStr(arguments[i]);
-      }
-      console.log(buf);
-    
-
-  
-}
             var parsers_1342177381 = [{Field0: 2, Field1: identifyBibleBookPt_1459617797}, {Field0: 1, Field1: identifyBibleBookEn_1442840581}];
 var ConstSet10 = setConstr(32, 9, 11, 13, 10, 12);
 var ConstSet11 = setConstr(32, 9, 11, 13, 10, 12);
@@ -2059,54 +2048,54 @@ framePtr = F.prev;
 var F = {procname: "module forStr", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/util-1.14.1-aef880016bf0e482fa488c5ea7f0d03713cfc660/util/forStr.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module base", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/base.nim", line: 0};
+var F = {procname: "module base", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/base.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module base", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/base.nim", line: 0};
+var F = {procname: "module base", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/base.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module hebrew", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/hebrew.nim", line: 0};
+var F = {procname: "module hebrew", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/hebrew.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module hebrew", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/hebrew.nim", line: 0};
+var F = {procname: "module hebrew", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/hebrew.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module english", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/english.nim", line: 0};
+var F = {procname: "module english", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/english.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module english", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/english.nim", line: 0};
+var F = {procname: "module english", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/english.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module portuguese", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/portuguese.nim", line: 0};
+var F = {procname: "module portuguese", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/portuguese.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module portuguese", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/portuguese.nim", line: 0};
+var F = {procname: "module portuguese", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/portuguese.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module books", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books.nim", line: 0};
+var F = {procname: "module books", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module books", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books.nim", line: 0};
-framePtr = F;
-framePtr = F.prev;
-var F = {procname: "module jsre", prev: framePtr, filename: "/data/os/config/.choosenim/toolchains/nim-#devel/lib/js/jsre.nim", line: 0};
+var F = {procname: "module books", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
 var F = {procname: "module jsre", prev: framePtr, filename: "/data/os/config/.choosenim/toolchains/nim-#devel/lib/js/jsre.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module verses", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/verses.nim", line: 0};
+var F = {procname: "module jsre", prev: framePtr, filename: "/data/os/config/.choosenim/toolchains/nim-#devel/lib/js/jsre.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module verses", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/verses.nim", line: 0};
 framePtr = F;
 F.line = 38;
 var verseRegex_1476395026 = new RegExp("([^:]+) ([0-9]{1,3})(:[0-9,\\- ]+)? ?([A-z]{2}_[A-z0-9]+)?");
 framePtr = F.prev;
-var F = {procname: "module verses", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/verses.nim", line: 0};
+var F = {procname: "module verses", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/verses.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module bibleTools", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools.nim", line: 0};
+var F = {procname: "module bibleTools", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
-var F = {procname: "module bibleTools", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools.nim", line: 0};
+var F = {procname: "module bibleTools", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools.nim", line: 0};
 framePtr = F;
 framePtr = F.prev;
 var F = {procname: "module kbase", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/karax-1.3.0-481742b3d0c0e3c92174b1bdd08a4a94853250af/karax/kbase.nim", line: 0};
@@ -5014,14 +5003,14 @@ function removeAccent_1375732040(str_1375732041) {
 function normalize_1358954607(s_1358954608) {
   var result_1358954609 = {Field0: [], Field1: [], Field2: []};
 
-  var F = {procname: "base.normalize", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/base.nim", line: 0};
+  var F = {procname: "base.normalize", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/base.nim", line: 0};
   framePtr = F;
     Label1: {
-      F.line = 38;
+      F.line = 37;
       var rune_1358954613 = 0;
       F.line = 239;
       var colontmp__1442840664 = [];
-      F.line = 38;
+      F.line = 37;
       colontmp__1442840664 = toRunes_1006640486(nsuToLowerAsciiStr(s_1358954608));
       F.line = 241;
       var i_1442840666 = 0;
@@ -5031,33 +5020,33 @@ function normalize_1358954607(s_1358954608) {
         F.line = 243;
           Label3: while (true) {
           if (!(i_1442840666 < L_1442840667)) break Label3;
-            F.line = 38;
+            F.line = 37;
             rune_1358954613 = colontmp__1442840664[chckIndx(i_1442840666, 0, (colontmp__1442840664).length - 1)];
-            F.line = 39;
+            F.line = 38;
             var letter_1358954614 = HEX24_1006633611(rune_1358954613);
             if (((letter_1358954614).length == 1)) {
-            F.line = 41;
+            F.line = 40;
             var ch_1358954615 = letter_1358954614[chckIndx(0, 0, (letter_1358954614).length - 1)];
             if ((ConstSet3[ch_1358954615] != undefined)) {
-            F.line = 43;
+            F.line = 42;
             addChar(result_1358954609.Field0, ch_1358954615);;
             }
             else {
             if ((ConstSet4[ch_1358954615] != undefined)) {
-            F.line = 45;
+            F.line = 44;
             addChar(result_1358954609.Field1, ch_1358954615);;
             }
             }
             }
             else {
-              F.line = 47;
+              F.line = 46;
               result_1358954609.Field2.push.apply(result_1358954609.Field2, nsuStrip(letter_1358954614, true, true, ConstSet5));;
               Label4: {
-                F.line = 48;
+                F.line = 47;
                 var ch_1358954624 = 0;
                 F.line = 257;
                 var colontmp__1442840660 = [];
-                F.line = 48;
+                F.line = 47;
                 colontmp__1442840660 = removeAccent_1375732040(letter_1358954614);
                 F.line = 259;
                 var i_1442840661 = 0;
@@ -5067,10 +5056,10 @@ function normalize_1358954607(s_1358954608) {
                   F.line = 261;
                     Label6: while (true) {
                     if (!(i_1442840661 < L_1442840662)) break Label6;
-                      F.line = 48;
+                      F.line = 47;
                       ch_1358954624 = colontmp__1442840660[chckIndx(i_1442840661, 0, (colontmp__1442840660).length - 1)];
                       if ((ConstSet7[ch_1358954624] != undefined)) {
-                      F.line = 50;
+                      F.line = 49;
                       addChar(result_1358954609.Field0, nsuToLowerAsciiChar(ch_1358954624));;
                       }
                       
@@ -5192,17 +5181,17 @@ function nsuSplitString(s_939524668, sep_939524669, maxsplit_939524670) {
 }
 
 function isANumber_1358954691(s_1358954692, text_1358954693, num_1358954694) {
-  var F = {procname: "base.isANumber", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/base.nim", line: 0};
+  var F = {procname: "base.isANumber", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/base.nim", line: 0};
   framePtr = F;
-    F.line = 71;
+    F.line = 68;
     var parts_1358954695 = nsuSplitString(s_1358954692.Field0, text_1358954693, -1);
     if ((1 < (parts_1358954695).length)) {
-    F.line = 73;
+    F.line = 70;
     var newText_1358954699 = [];
-    F.line = 74;
+    F.line = 71;
     s_1358954692.Field1.push.apply(s_1358954692.Field1, HEX24_369098760(num_1358954694));;
     Label1: {
-      F.line = 75;
+      F.line = 72;
       var part_1358954703 = [];
       F.line = 241;
       var i_553648672 = 0;
@@ -5212,9 +5201,9 @@ function isANumber_1358954691(s_1358954692, text_1358954693, num_1358954694) {
         F.line = 243;
           Label3: while (true) {
           if (!(i_553648672 < L_553648673)) break Label3;
-            F.line = 75;
+            F.line = 72;
             part_1358954703 = parts_1358954695[chckIndx(i_553648672, 0, (parts_1358954695).length - 1)];
-            F.line = 75;
+            F.line = 72;
             newText_1358954699.push.apply(newText_1358954699, part_1358954703);;
             F.line = 245;
             i_553648672 = addInt(i_553648672, 1);
@@ -5226,13 +5215,35 @@ function isANumber_1358954691(s_1358954692, text_1358954693, num_1358954694) {
           }
       };
     };
-    F.line = 77;
+    F.line = 74;
     s_1358954692.Field0 = nimCopy(null, newText_1358954699, NTI33554449);
     }
     
   framePtr = F.prev;
 
   
+}
+
+function noNum_1358954704(s_1358954705, book_1358954706) {
+    var Temporary1;
+
+  var result_1358954707 = 0;
+
+  var F = {procname: "base.noNum", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/base.nim", line: 0};
+  framePtr = F;
+    F.line = 77;
+    if (((s_1358954705.Field1).length == 0)) {
+    Temporary1 = book_1358954706;
+    }
+    else {
+    Temporary1 = 0;
+    }
+    
+    result_1358954707 = Temporary1;
+  framePtr = F.prev;
+
+  return result_1358954707;
+
 }
 
 function integerOutOfRangeError_956301637() {
@@ -5410,10 +5421,10 @@ function getCorrectByNum_1358954629(s_1358954630, opts_1358954631) {
 
   var result_1358954632 = 0;
 
-  var F = {procname: "base.getCorrectByNum", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/base.nim", line: 0};
+  var F = {procname: "base.getCorrectByNum", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/base.nim", line: 0};
   framePtr = F;
-    F.line = 54;
-    F.line = 54;
+    F.line = 53;
+    F.line = 53;
 ++excHandler;
     try {
     Temporary1 = opts_1358954631[chckIndx(subInt(nsuParseInt(s_1358954630.Field1), 1), 0, (opts_1358954631).length - 1)];
@@ -5443,18 +5454,18 @@ function getCorrectByNum_1358954629(s_1358954630, opts_1358954631) {
 function getCorrectByNum_1358954646(s_1358954647, opts_1358954648) {
   var result_1358954649 = 0;
 
-  var F = {procname: "base.getCorrectByNum", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/base.nim", line: 0};
+  var F = {procname: "base.getCorrectByNum", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/base.nim", line: 0};
   framePtr = F;
   BeforeRet: {
-    F.line = 61;
+    F.line = 58;
     result_1358954649 = 0;
-    F.line = 62;
+    F.line = 59;
 ++excHandler;
     try {
     Label2: {
-      F.line = 63;
+      F.line = 60;
       var book_1358954663 = 0;
-      F.line = 63;
+      F.line = 60;
       var num_1358954664 = 0;
       F.line = 13;
       var i_553648687 = 0;
@@ -5462,12 +5473,12 @@ function getCorrectByNum_1358954646(s_1358954647, opts_1358954648) {
         F.line = 14;
           Label4: while (true) {
           if (!(i_553648687 < (opts_1358954648).length)) break Label4;
-            F.line = 63;
+            F.line = 60;
             book_1358954663 = opts_1358954648[chckIndx(i_553648687, 0, (opts_1358954648).length - 1)]["Field0"];
-            F.line = 63;
+            F.line = 60;
             num_1358954664 = opts_1358954648[chckIndx(i_553648687, 0, (opts_1358954648).length - 1)]["Field1"];
             if ((nsuParseInt(s_1358954647.Field1) == num_1358954664)) {
-            F.line = 65;
+            F.line = 62;
             result_1358954649 = book_1358954663;
             break BeforeRet;
             }
@@ -5730,7 +5741,7 @@ function identifyBibleBookPt_1459617797(bookName_1459617798) {
 
   var result_1459617799 = 0;
 
-  var F = {procname: "portuguese.identifyBibleBookPt", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/portuguese.nim", line: 0};
+  var F = {procname: "portuguese.identifyBibleBookPt", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/portuguese.nim", line: 0};
   framePtr = F;
     F.line = 103;
     var s_1459617803 = [normalize_1358954607(bookName_1459617798)];
@@ -5770,35 +5781,35 @@ function identifyBibleBookPt_1459617797(bookName_1459617798) {
     switch (toJSStr(s_1459617803[0].Field0)) {
     case "gn":
     case "genesis":
-      Temporary5 = 1;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 1);
       break;
     case "ex":
     case "exodo":
-      Temporary5 = 2;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 2);
       break;
     case "lv":
     case "levitico":
-      Temporary5 = 3;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 3);
       break;
     case "nm":
     case "numeros":
-      Temporary5 = 4;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 4);
       break;
     case "dt":
     case "deuteronomio":
-      Temporary5 = 5;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 5);
       break;
     case "js":
     case "joshua":
-      Temporary5 = 9;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 9);
       break;
     case "jz":
     case "juizes":
-      Temporary5 = 10;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 10);
       break;
     case "rt":
     case "rute":
-      Temporary5 = 40;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 40);
       break;
     case "sm":
     case "sa":
@@ -5817,7 +5828,7 @@ function identifyBibleBookPt_1459617797(bookName_1459617798) {
     case "esd":
     case "esdras":
       if (eqStrings(s_1459617803[0].Field1, [])) {
-      F.line = 121;
+      F.line = 124;
       s_1459617803[0].Field1 = nimCopy(null, [49], NTI33554449);
       }
       
@@ -5825,158 +5836,158 @@ function identifyBibleBookPt_1459617797(bookName_1459617798) {
       break;
     case "ne":
     case "neemias":
-      Temporary5 = 54;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 54);
       break;
     case "tb":
     case "tobias":
-      Temporary5 = 19;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 19);
       break;
     case "jud":
     case "judite":
-      Temporary5 = 45;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 45);
       break;
     case "et":
     case "est":
     case "ester":
-      Temporary5 = 43;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 43);
       break;
     case "acrescimosaester":
-      Temporary5 = 44;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 44);
       break;
     case "sl":
     case "salmos":
-      Temporary5 = 34;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 34);
       break;
     case "pv":
     case "pr":
     case "proverbios":
-      Temporary5 = 35;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 35);
       break;
     case "ecl":
     case "ec":
     case "eclesiastes":
-      Temporary5 = 42;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 42);
       break;
     case "sb":
     case "sabedoriadesalomao":
-      Temporary5 = 37;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 37);
       break;
     case "eclo":
     case "eclesiastico":
-      Temporary5 = 38;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 38);
       break;
     case "ct":
     case "cantares":
-      Temporary5 = 39;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 39);
       break;
     case "is":
     case "isaias":
-      Temporary5 = 15;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 15);
       break;
     case "jr":
     case "jeremias":
-      Temporary5 = 16;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 16);
       break;
     case "lm":
     case "lamentacoes":
-      Temporary5 = 41;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 41);
       break;
     case "epistoladejeremias":
-      Temporary5 = 17;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 17);
       break;
     case "br":
     case "baruque":
       if (eqStrings(s_1459617803[0].Field1, [])) {
-      F.line = 139;
+      F.line = 142;
       s_1459617803[0].Field1 = nimCopy(null, [49], NTI33554449);
       }
       
       Temporary5 = getCorrectByNum_1358954629(s_1459617803[0], new Uint8Array([20, 21]));
       break;
     case "susana":
-      Temporary5 = 51;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 51);
       break;
     case "ez":
     case "ezequiel":
-      Temporary5 = 18;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 18);
       break;
     case "dn":
     case "daniel":
-      Temporary5 = 49;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 49);
       break;
     case "bel":
     case "beleodragao":
-      Temporary5 = 52;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 52);
       break;
     case "os":
     case "oseias":
-      Temporary5 = 22;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 22);
       break;
     case "jl":
     case "joel":
-      Temporary5 = 23;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 23);
       break;
     case "am":
     case "amos":
-      Temporary5 = 24;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 24);
       break;
     case "ab":
     case "ob":
     case "obadias":
-      Temporary5 = 25;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 25);
       break;
     case "jn":
     case "jonas":
-      Temporary5 = 26;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 26);
       break;
     case "mq":
     case "miqueias":
-      Temporary5 = 27;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 27);
       break;
     case "na":
     case "naum":
-      Temporary5 = 28;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 28);
       break;
     case "hc":
     case "hab":
     case "habacuque":
-      Temporary5 = 29;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 29);
       break;
     case "sf":
     case "sofonias":
-      Temporary5 = 30;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 30);
       break;
     case "ag":
     case "ageu":
-      Temporary5 = 31;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 31);
       break;
     case "zc":
     case "zacarias":
-      Temporary5 = 32;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 32);
       break;
     case "ml":
     case "malaquias":
-      Temporary5 = 33;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 33);
       break;
     case "mt":
     case "mateus":
-      Temporary5 = 61;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 61);
       break;
     case "marcos":
-      Temporary5 = 62;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 62);
       break;
     case "lc":
     case "lucas":
-      Temporary5 = 63;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 63);
       break;
     case "at":
     case "atos":
     case "atosdosapostolos":
-      Temporary5 = 64;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 64);
       break;
     case "rm":
     case "romanos":
-      Temporary5 = 73;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 73);
       break;
     case "co":
     case "cor":
@@ -5985,20 +5996,20 @@ function identifyBibleBookPt_1459617797(bookName_1459617798) {
       break;
     case "gl":
     case "galatas":
-      Temporary5 = 74;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 74);
       break;
     case "ef":
     case "efesios":
-      Temporary5 = 78;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 78);
       break;
     case "fp":
     case "fl":
     case "filipenses":
-      Temporary5 = 79;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 79);
       break;
     case "cl":
     case "colossenses":
-      Temporary5 = 80;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 80);
       break;
     case "ts":
     case "tessalonicenses":
@@ -6010,20 +6021,20 @@ function identifyBibleBookPt_1459617797(bookName_1459617798) {
       break;
     case "tt":
     case "tito":
-      Temporary5 = 70;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 70);
       break;
     case "fm":
     case "filemom":
-      Temporary5 = 82;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 82);
       break;
     case "he":
     case "hb":
     case "hebreus":
-      Temporary5 = 83;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 83);
       break;
     case "tg":
     case "tiago":
-      Temporary5 = 65;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 65);
       break;
     case "pe":
     case "pd":
@@ -6032,8 +6043,6 @@ function identifyBibleBookPt_1459617797(bookName_1459617798) {
       break;
     case "joao":
     case "jo":
-      F.line = 175;
-      rawEcho(s_1459617803[0].Field2);
       if (contains_939525969(s_1459617803[0].Field2, [195,179])) {
       Temporary6 = 36;
       }
@@ -6052,19 +6061,19 @@ function identifyBibleBookPt_1459617797(bookName_1459617798) {
       break;
     case "jd":
     case "judas":
-      Temporary5 = 68;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 68);
       break;
     case "ap":
     case "revelacao":
-      Temporary5 = 88;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 88);
       break;
     case "oracaodemanasses":
-      Temporary5 = 48;
+      Temporary5 = noNum_1358954704(s_1459617803[0], 48);
       break;
     case "mc":
     case "mb":
     case "macabeus":
-      if (((s_1459617803[0].Field1).length == 0)) {
+      if ((eqStrings(s_1459617803[0].Field0, [109,99]) && ((s_1459617803[0].Field1).length == 0))) {
       Temporary8 = 62;
       }
       else {
@@ -6095,7 +6104,7 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
 
   var result_1442840583 = 0;
 
-  var F = {procname: "english.identifyBibleBookEn", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/english.nim", line: 0};
+  var F = {procname: "english.identifyBibleBookEn", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/english.nim", line: 0};
   framePtr = F;
     F.line = 102;
     var s_1442840602 = [normalize_1358954607(bookName_1442840582)];
@@ -6135,52 +6144,52 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "ge":
     case "gn":
     case "genesis":
-      Temporary5 = 1;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 1);
       break;
     case "exod":
     case "exo":
     case "ex":
     case "exodus":
-      Temporary5 = 2;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 2);
       break;
     case "lev":
     case "le":
     case "lv":
     case "leviticus":
-      Temporary5 = 3;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 3);
       break;
     case "num":
     case "nu":
     case "nm":
     case "nb":
     case "numbers":
-      Temporary5 = 4;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 4);
       break;
     case "deut":
     case "de":
     case "dt":
     case "deu":
     case "deuteronomy":
-      Temporary5 = 5;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 5);
       break;
     case "josh":
     case "jos":
     case "jsh":
     case "joshua":
-      Temporary5 = 9;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 9);
       break;
     case "judg":
     case "jdg":
     case "jg":
     case "jdgs":
     case "judges":
-      Temporary5 = 10;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 10);
       break;
     case "rth":
     case "ru":
     case "rut":
     case "ruth":
-      Temporary5 = 40;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 40);
       break;
     case "s":
     case "sa":
@@ -6230,16 +6239,16 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "neh":
     case "ne":
     case "nehemiah":
-      Temporary5 = 54;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 54);
       break;
     case "esth":
     case "est":
     case "esther":
-      Temporary5 = 43;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 43);
       break;
     case "jb":
     case "job":
-      Temporary5 = 36;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 36);
       break;
     case "psalm":
     case "pslm":
@@ -6248,14 +6257,14 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "psm":
     case "pss":
     case "psalms":
-      Temporary5 = 34;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 34);
       break;
     case "prov":
     case "pro":
     case "pr":
     case "prv":
     case "proverbs":
-      Temporary5 = 35;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 35);
       break;
     case "eccles":
     case "eccle":
@@ -6263,7 +6272,7 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "ec":
     case "qoh":
     case "ecclesiastes":
-      Temporary5 = 42;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 42);
       break;
     case "songofsongs":
     case "song":
@@ -6275,42 +6284,42 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "sg":
     case "sng":
     case "songofsolomon":
-      Temporary5 = 39;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 39);
       break;
     case "is":
     case "isa":
     case "isaiah":
-      Temporary5 = 15;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 15);
       break;
     case "jer":
     case "je":
     case "jr":
     case "jeremiah":
-      Temporary5 = 16;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 16);
       break;
     case "epjer":
     case "epi":
     case "lje":
     case "epistleofjeremiah":
-      Temporary5 = 17;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 17);
       break;
     case "lam":
     case "la":
     case "lm":
     case "lamentations":
-      Temporary5 = 41;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 41);
       break;
     case "ezek":
     case "eze":
     case "ezk":
     case "ezekiel":
-      Temporary5 = 18;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 18);
       break;
     case "dan":
     case "da":
     case "dn":
     case "daniel":
-      Temporary5 = 49;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 49);
       break;
     case "azar":
     case "sy":
@@ -6328,81 +6337,81 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "ho":
     case "hs":
     case "hosea":
-      Temporary5 = 22;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 22);
       break;
     case "joe":
     case "jl":
     case "jol":
     case "joel":
-      Temporary5 = 23;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 23);
       break;
     case "am":
     case "amo":
     case "amos":
-      Temporary5 = 24;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 24);
       break;
     case "obad":
     case "ob":
     case "oba":
     case "obadiah":
-      Temporary5 = 25;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 25);
       break;
     case "jnh":
     case "jon":
     case "jona":
     case "jonah":
-      Temporary5 = 26;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 26);
       break;
     case "mic":
     case "mc":
     case "micah":
-      Temporary5 = 27;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 27);
       break;
     case "nah":
     case "na":
     case "nam":
     case "nahum":
-      Temporary5 = 28;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 28);
       break;
     case "hab":
     case "hb":
     case "habakkuk":
-      Temporary5 = 29;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 29);
       break;
     case "zeph":
     case "zep":
     case "zp":
     case "zph":
     case "zephaniah":
-      Temporary5 = 30;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 30);
       break;
     case "hag":
     case "hg":
     case "haggai":
-      Temporary5 = 31;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 31);
       break;
     case "zech":
     case "zec":
     case "zc":
     case "zch":
     case "zechariah":
-      Temporary5 = 32;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 32);
       break;
     case "mal":
     case "ml":
     case "malachi":
-      Temporary5 = 33;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 33);
       break;
     case "tob":
     case "tb":
     case "tobit":
-      Temporary5 = 19;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 19);
       break;
     case "jdth":
     case "jdt":
     case "jth":
     case "judith":
-      Temporary5 = 45;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 45);
       break;
     case "addesth":
     case "addes":
@@ -6413,27 +6422,27 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "gresth":
     case "esg":
     case "additionstoesther":
-      Temporary5 = 44;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 44);
       break;
     case "wisdofsol":
     case "wis":
     case "ws":
     case "wisdom":
     case "wisdomofsolomon":
-      Temporary5 = 37;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 37);
       break;
     case "sir":
     case "ecclesiasticus":
     case "ecclus":
     case "eccl":
     case "sirach":
-      Temporary5 = 38;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 38);
       break;
     case "baruch":
     case "bar":
     case "baruk":
       if (eqStrings(s_1442840602[0].Field1, [])) {
-      F.line = 156;
+      F.line = 159;
       s_1442840602[0].Field1 = nimCopy(null, [49], NTI33554449);
       }
       
@@ -6441,11 +6450,11 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
       break;
     case "sus":
     case "susanna":
-      Temporary5 = 51;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 51);
       break;
     case "bel":
     case "belandthedragon":
-      Temporary5 = 52;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 52);
       break;
     case "mac":
     case "m":
@@ -6462,12 +6471,12 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "es":
     case "stesdras":
     case "ezra":
-      if ((eqStrings(s_1442840602[0].Field0, [101,115]) && eqStrings(s_1442840602[0].Field1, []))) {
-      Temporary7 = 43;
+      if (eqStrings(s_1442840602[0].Field0, [101,115])) {
+      Temporary7 = noNum_1358954704(s_1442840602[0], 43);
       }
       else {
         if (eqStrings(s_1442840602[0].Field1, [])) {
-        F.line = 165;
+        F.line = 169;
         s_1442840602[0].Field1 = nimCopy(null, [49], NTI33554449);
         }
         
@@ -6483,36 +6492,36 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "man":
     case "mns":
     case "prayerofmanasseh":
-      Temporary5 = 48;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 48);
       break;
     case "matt":
     case "mt":
     case "mat":
     case "matthew":
-      Temporary5 = 61;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 61);
       break;
     case "mrk":
     case "mar":
     case "mk":
     case "mr":
     case "mark":
-      Temporary5 = 62;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 62);
       break;
     case "luk":
     case "lk":
     case "luke":
-      Temporary5 = 63;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 63);
       break;
     case "act":
     case "ac":
     case "acts":
-      Temporary5 = 64;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 64);
       break;
     case "rom":
     case "ro":
     case "rm":
     case "romans":
-      Temporary5 = 73;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 73);
       break;
     case "cor":
     case "co":
@@ -6531,22 +6540,22 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "ga":
     case "gl":
     case "galatians":
-      Temporary5 = 74;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 74);
       break;
     case "ephes":
     case "eph":
     case "ephesians":
-      Temporary5 = 78;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 78);
       break;
     case "phil":
     case "php":
     case "pp":
     case "philippians":
-      Temporary5 = 79;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 79);
       break;
     case "col":
     case "colossians":
-      Temporary5 = 80;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 80);
       break;
     case "ths":
     case "thess":
@@ -6584,29 +6593,29 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
       break;
     case "tit":
     case "titus":
-      Temporary5 = 70;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 70);
       break;
     case "lao":
     case "laodiceans":
-      Temporary5 = 81;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 81);
       break;
     case "philem":
     case "phm":
     case "pm":
     case "phlm":
     case "philemon":
-      Temporary5 = 82;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 82);
       break;
     case "heb":
     case "hebrews":
-      Temporary5 = 83;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 83);
       break;
     case "jas":
     case "jm":
     case "jms":
     case "jam":
     case "james":
-      Temporary5 = 65;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 65);
       break;
     case "pet":
     case "pe":
@@ -6620,7 +6629,6 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "jo":
     case "joh":
     case "jhn":
-    case "j":
     case "stjohn":
     case "john":
       if (eqStrings(s_1442840602[0].Field1, [])) {
@@ -6637,27 +6645,27 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
     case "judi":
     case "jde":
     case "jude":
-      Temporary5 = 68;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 68);
       break;
     case "rev":
     case "re":
     case "therevelation":
     case "rv":
     case "revelation":
-      Temporary5 = 88;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 88);
       break;
     case "jub":
     case "jubilees":
-      Temporary5 = 6;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 6);
       break;
     case "eno":
     case "enoch":
-      Temporary5 = 7;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 7);
       break;
     case "jash":
     case "jsr":
     case "jasher":
-      Temporary5 = 8;
+      Temporary5 = noNum_1358954704(s_1442840602[0], 8);
       break;
     default: 
       Temporary5 = 0;
@@ -6673,7 +6681,7 @@ function identifyBibleBookEn_1442840581(bookName_1442840582) {
 function identifyBibleBook_1342177377(s_1342177378, lang_1342177379) {
   var result_1342177380 = {Field0: 0, Field1: 0};
 
-  var F = {procname: "books.identifyBibleBook", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books.nim", line: 0};
+  var F = {procname: "books.identifyBibleBook", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books.nim", line: 0};
   framePtr = F;
   BeforeRet: {
     F.line = 37;
@@ -6737,7 +6745,7 @@ function get_1476395057(self_1476395058) {
 
   var result_1476395059 = [];
 
-  var F = {procname: "get.get", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/verses.nim", line: 0};
+  var F = {procname: "get.get", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/verses.nim", line: 0};
   framePtr = F;
     F.line = 29;
     if ((self_1476395058 == null)) {
@@ -6849,7 +6857,7 @@ function nsuReplaceStr(s_939525978, sub_939525979, by_939525980) {
 function parseBibleVerse_1476395027(verse_1476395028) {
   var result_1476395029 = ({book: {Field0: 0, Field1: 0}, chapter: 0, verses: [], translation: []});
 
-  var F = {procname: "verses.parseBibleVerse", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/verses.nim", line: 0};
+  var F = {procname: "verses.parseBibleVerse", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/verses.nim", line: 0};
   framePtr = F;
   BeforeRet: {
     F.line = 43;
@@ -7236,7 +7244,7 @@ function HEX3DHEX3D_1476395110(x_1476395112, y_1476395113) {
 function initBibleVerse_1476395019() {
   var result_1476395020 = ({book: {Field0: 0, Field1: 0}, chapter: 0, verses: [], translation: []});
 
-  var F = {procname: "verses.initBibleVerse", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/verses.nim", line: 0};
+  var F = {procname: "verses.initBibleVerse", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/verses.nim", line: 0};
   framePtr = F;
   framePtr = F.prev;
 
@@ -7793,10 +7801,10 @@ function enAbbr_1442840776(self_1442840777) {
 
   var result_1442840778 = [];
 
-  var F = {procname: "english.enAbbr", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/english.nim", line: 0};
+  var F = {procname: "english.enAbbr", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/english.nim", line: 0};
   framePtr = F;
-    F.line = 221;
-    F.line = 223;
+    F.line = 227;
+    F.line = 229;
     switch (self_1442840777) {
     case 1:
       Temporary1 = [71,101,110];
@@ -8078,10 +8086,10 @@ function ptAbbr_1459617825(self_1459617826) {
 
   var result_1459617827 = [];
 
-  var F = {procname: "portuguese.ptAbbr", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/portuguese.nim", line: 0};
+  var F = {procname: "portuguese.ptAbbr", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/portuguese.nim", line: 0};
   framePtr = F;
-    F.line = 196;
-    F.line = 198;
+    F.line = 195;
+    F.line = 197;
     switch (self_1459617826) {
     case 1:
       Temporary1 = [71,110];
@@ -8363,7 +8371,7 @@ function abbr_1342177506(self_1342177507) {
 
   var result_1342177508 = [];
 
-  var F = {procname: "books.abbr", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books.nim", line: 0};
+  var F = {procname: "books.abbr", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books.nim", line: 0};
   framePtr = F;
     F.line = 52;
     F.line = 53;
@@ -8631,7 +8639,7 @@ function formatValue_1375732134(result_1375732136, result_1375732136_Idx, value_
 function inOzzuuBible_1476395285(v_1476395286, defaultTranslation_1476395287) {
   var result_1476395288 = [];
 
-  var F = {procname: "verses.inOzzuuBible", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/verses.nim", line: 0};
+  var F = {procname: "verses.inOzzuuBible", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/verses.nim", line: 0};
   framePtr = F;
     F.line = 99;
     var translation_1476395289 = nimCopy(null, defaultTranslation_1476395287, NTI33554449);
@@ -8678,7 +8686,7 @@ function en_1442840578(self_1442840579) {
 
   var result_1442840580 = [];
 
-  var F = {procname: "english.en", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/english.nim", line: 0};
+  var F = {procname: "english.en", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/english.nim", line: 0};
   framePtr = F;
     F.line = 4;
     F.line = 5;
@@ -8963,7 +8971,7 @@ function pt_1459617794(self_1459617795) {
 
   var result_1459617796 = [];
 
-  var F = {procname: "portuguese.pt", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/portuguese.nim", line: 0};
+  var F = {procname: "portuguese.pt", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/portuguese.nim", line: 0};
   framePtr = F;
     F.line = 4;
     F.line = 5;
@@ -9248,7 +9256,7 @@ function name_1342177503(self_1342177504) {
 
   var result_1342177505 = [];
 
-  var F = {procname: "books.name", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books.nim", line: 0};
+  var F = {procname: "books.name", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books.nim", line: 0};
   framePtr = F;
     F.line = 45;
     F.line = 46;
@@ -9275,7 +9283,7 @@ function hebrewTransliteration_1426063365(self_1426063366) {
 
   var result_1426063367 = [];
 
-  var F = {procname: "hebrew.hebrewTransliteration", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/books/hebrew.nim", line: 0};
+  var F = {procname: "hebrew.hebrewTransliteration", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/books/hebrew.nim", line: 0};
   framePtr = F;
     F.line = 98;
     F.line = 99;
@@ -9615,7 +9623,7 @@ function HEX24_1476395102(self_1476395103, hebrewTransliteration_1476395104, add
 
   var result_1476395109 = [];
 
-  var F = {procname: "verses.$", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.3-ee269fc21e69bb3a0fef50b8106362eaeac1e093/bibleTools/verses.nim", line: 0};
+  var F = {procname: "verses.$", prev: framePtr, filename: "/data/os/config/.nimble/pkgs2/bibleTools-1.0.4-131ebcef6c7bf06862a539ef26168d536aca73d5/bibleTools/verses.nim", line: 0};
   framePtr = F;
   BeforeRet: {
     if (HEX3DHEX3D_1476395110(self_1476395103, initBibleVerse_1476395019())) {
