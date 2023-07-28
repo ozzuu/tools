@@ -7,8 +7,8 @@
 </div>
 
 **DocID**  
-![CPF](images/cpf.png)
-![CNPJ](images/cnpj.png)
+![CPF](images/docid/cpf.png)
+![CNPJ](images/docid/cnpj.png)
 
 **Bible Tools**  
 ![blank](images/bible/blank.png)
