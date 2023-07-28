@@ -6,11 +6,11 @@
 
 </div>
 
-**DocID**
+**DocID**  
 ![CPF](images/cpf.png)
 ![CNPJ](images/cnpj.png)
 
-**Bible Tools**
+**Bible Tools**  
 ![blank](images/bible/blank.png)
 ![verse](images/bible/verse.png)
 ![out1](images/bible/out1.png)
