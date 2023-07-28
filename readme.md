@@ -4,7 +4,6 @@
 
 **[About](#about)** - [License](#license)
 
-</div>
 
 **DocID**  
 ![CPF](images/docid/cpf.png)
@@ -15,6 +14,7 @@
 ![verse](images/bible/verse.png)
 ![out1](images/bible/out1.png)
 ![out2](images/bible/out2.png)
+</div>
 
 ## About
 
